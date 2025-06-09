@@ -5,20 +5,25 @@ Analyzed data for a pizza manufacturing and distribution company to identify ins
 ## Main objective
 
 **1. KPIs:** Create KPI cards displaying the following metrics: Total Revenue, Total Quantity Sold, Total Orders, Average Order Value and Average Pizza per Order.
+
 **2. Sales Trends and Anomalies**
    a. Analyze and present daily, weekly, and monthly sales trends across 2015.
    b. Identify peak sales periods, patterns, and any seasonal trends.
    c. Investigate sales performance by day of the week and time of day.
    d. Examine and identify the potential causes behind significant sales spikes or drops on specific dates throughout the year.
+   
 **3. Product Performance Analysis**
    a. Rank pizza categories by total quantity sold and revenue generated.
    b. Identify the top 5 and bottom 5 pizzas by both quantity and revenue.
+   
 **4. Size and Ingredient Analysis**
    a. Analyze the relationship between pizza size and sales volume within each category.
    b. Identify the most and least popular ingredients for each pizza category based on quantity sold.
+   
 **5. Order and Ingredient Correlations**
    a. Investigate the correlation between revenue and quantity sold by specific ingredients. Use two average reference lines to segment the ingredients into four distinct groups for comparison.
    b. Explore the correlation between average pizza prices and sales volume across categories. Include a trend line and calculate the correlation coefficient between the two variables.
+   
 **6. Order Frequency and Timing**
    a. Analyze the frequency of single-item vs. multi-item orders.
    b. Examine the average time interval in minutes between orders.
@@ -28,23 +33,8 @@ Analyzed data for a pizza manufacturing and distribution company to identify ins
 - Number of Columns: 10
   
 Column Name | Data Type | Description
-| ------------- |:-------------:| :-------------:|
-Transaction_ID | Integer | Unique identifier for each transaction.
-Transaction_Date | DateTime | Date and time when the transaction occurred.
-Product_Name | Varchar | Name of the product sold (e.g., Espresso, Latte).
-Product_Category | Varchar | Category of the product (e.g., Hot Beverage, Cold Beverage, Pastry).
-Quantity_Sold | Integer | Number of units sold in the transaction.
-Unit_Price | Float | Price per unit of the product.
-Total_Sales | Float | Total revenue from the transaction (Quantity_Sold × Unit_Price).
-Payment_Method | Varchar | Mode of payment used (e.g., Cash, Credit Card, Mobile Payment).
-Customer_Age_Group | Varchar | Age group of the customer (e.g., 18-24, 25-34).
-Customer_Gender | Varchar | Gender of the customer (e.g., Male, Female).
-Store_Location | Varchar | Location of the store where the transaction took place.
-Day_of_Week | Varchar | Day of the week when the transaction occurred (e.g., Monday, Tuesday).
-Time_of_Day | Varchar | Time period of the day (e.g., Morning, Afternoon, Evening).
-Season | Varchar | Season during which the transaction occurred (e.g., Winter, Summer).
+
 | **Column Name** | **Data Type** | **Description**                                            |
-| --------------- | ------------- | ---------------------------------------------------------- |
 | `order_id`      | Text/ID       | Unique identifier for each order placed by a transaction.  |
 | `date`          | Date          | Date the order was placed (entered into the system).       |
 | `time`          | Time          | Time the order was placed (entered into the system).       |
