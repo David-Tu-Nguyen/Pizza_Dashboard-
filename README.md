@@ -58,6 +58,7 @@ I cleaned the data in Power Query and created the following;
 
 ## Insights
 **1. Sales Trends and Anomalies**
+
 a. Daily, Weekly, and Monthly Sales Trends (2015)
 **- Daily trend:** Sales peak consistently around 12 PM, with a visible decline after 8 PM.
 **- Weekly trend:** The highest revenue is generated on Fridays, followed closely by Thursdays and Wednesdays. The lowest is on Sundays.
@@ -78,6 +79,7 @@ d. Potential Causes Behind Sales Spikes or Drops
 - Drops in October may be due to fewer events or seasonal slowdown.
 - 
 **2. Product Performance Analysis**
+  
 a. Rank pizza categories by total quantity sold and revenue generated.
 **- Top 5 Pizzas by Revenue**
 Thai Chicken Pizza - $43,000 (5.3% of total revenue)
@@ -109,6 +111,7 @@ Spinach Pizza - 970 units (1.95% of total)
 Other low performers - Various underperforming specialty pizzas
 
 **3. Size and Ingredient Analysis**
+
 a. Analyze the relationship between pizza size and sales volume within each category.
 Large pizzas represent the clear customer preference. This indicates that customers prefer moderate to large portions over specialty extra-large options.
 
@@ -124,6 +127,7 @@ b. Identify the most and least popular ingredients for each pizza category based
 The data shows that traditional toppings like pepperoni and extra cheese remain the most popular choices, while more unique or acquired-taste ingredients like anchovies and eggplant are consistently avoided by most customers
 
 **4. Order and Ingredient Correlations**
+
 a. Revenue vs. Quantity Sold by Ingredient
 The scatter plot is divided using two average reference lines (vertical = quantity; horizontal = revenue), creating four segments:
 - **Top Right (High Quantity, High Revenue):** Most profitable and popular ingredients (keep or promote).
@@ -137,6 +141,7 @@ b. Correlation Between Price and Sales Volume
 - A trend line is plotted to reinforce this relationship.
 
 **5. Order Frequency and Timing**
+
 a. Single-item vs. Multi-item Orders
 - The pie chart shows 96.39% of orders are multi-item, while only 3.61% are single-item.
 - This indicates strong customer preference for group or family purchases — marketing should focus on combo deals and bulk offers.
