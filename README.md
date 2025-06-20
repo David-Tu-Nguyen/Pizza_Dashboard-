@@ -72,11 +72,9 @@ I cleaned the data in Power Query and created the following;
 **1. Sales Trends and Anomalies**
 
 a. Daily, Weekly, and Monthly Sales Trends (2015
-**- Daily trend:** Sales are highest on Fridays , closely followed by Saturdays. The lowest sales occur on Sundays 
-
-**- Weekly trend:** Weekdays account for 72.8% of total revenue, while weekends contribute 27.2%. This suggests a strong weekday preference, but with notable peaks at the start of the weekend
-
-**- Monthly trend:** July is the top-performing month for both orders and revenue, followed by November and January. September, Octorber, December, and Febuary are the slowest months. 
+- **Daily trend:** Sales are highest on Fridays , closely followed by Saturdays. The lowest sales occur on Sundays 
+- **Weekly trend:** Weekdays account for 72.8% of total revenue, while weekends contribute 27.2%. This suggests a strong weekday preference, but with notable peaks at the start of the weekend
+- **Monthly trend:** July is the top-performing month for both orders and revenue, followed by November and January. September, Octorber, December, and Febuary are the slowest months. 
 
 b. Peak Sales Periods, Patterns, and Seasonal Trends
 - **Peak Periods:** The busiest months are July and May, with July generating the highest revenue ($72.56K). Fridays and Saturdays are the peak sales days each week.
@@ -102,52 +100,33 @@ a. Rank pizza categories by total quantity sold and revenue generated.
 
 b. Identify the top 5 and bottom 5 pizzas by both quantity and revenue.
 **- Top 5 Pizzas by Revenue**
-
-Thai Chicken Pizza - $43,000 (5.3% of total revenue)
-
-Barbecue Pizza - $41,000 (5.0% of total revenue)
-
-Californian Pizza - $41,000 (5.0% of total revenue)
-
-Classic Deluxe Pizza - $38,000 (4.7% of total revenue)
-
-Spicy Italian Pizza - $35,000 (4.3% of total revenue)
+- Thai Chicken Pizza - $43,000 (5.3% of total revenue)
+- Barbecue Pizza - $41,000 (5.0% of total revenue)
+- Californian Pizza - $41,000 (5.0% of total revenue)
+- Classic Deluxe Pizza - $38,000 (4.7% of total revenue)
+- Spicy Italian Pizza - $35,000 (4.3% of total revenue)
 
 **- Top 5 Pizzas by Quantity**
-
-Classic Deluxe Pizza - 2,500 pizzas sold
-
-Barbecue Pizza - 2,400 pizzas (4.8% of total)
-
-Hawaiian Pizza - 2,400 pizzas (4.8% of total)
-
-Pepperoni Pizza 
-
-Thai Chicken Pizza 
+- Classic Deluxe Pizza - 2,500 pizzas sold
+- Barbecue Pizza - 2,400 pizzas (4.8% of total)
+- Hawaiian Pizza - 2,400 pizzas (4.8% of total)
+- Pepperoni Pizza 
+- Thai Chicken Pizza 
 
 **- Bottom 5 Pizzas by Revenue**
-
-Brie Carre Pizza - $12,000 
-
-Green Garden Pizza - $14,000
-
-Spinach Pizza - $15,000 
-
-Mediterranean Pizza - $15,000 
-
-Spinach Pesto Pizza - $15,000 
+- Brie Carre Pizza - $12,000 
+- Green Garden Pizza - $14,000
+- Spinach Pizza - $15,000 
+- Mediterranean Pizza - $15,000 
+- Spinach Pesto Pizza - $15,000 
 
 
 **- Bottom 5 Pizzas by Quantity**
-Brie Carre Pizza - 490 pizzas sold 
-
-Mediterranean Pizza - 934 units 
-
-Calabrese Pizza - 937 units (1.89% of total)
-
-Spinach Supreme Pizza - 950 units 
-
-Soppressata Pizza - 961 units
+- Brie Carre Pizza - 490 pizzas sold 
+- Mediterranean Pizza - 934 units 
+- Calabrese Pizza - 937 units (1.89% of total)
+- Spinach Supreme Pizza - 950 units 
+- Soppressata Pizza - 961 units
 
 **3. Size and Ingredient Analysis**
 
@@ -159,23 +138,17 @@ b. Identify the most and least popular ingredients for each pizza category based
 
 **Most Popular:**
 
-Classic:  Red, mushrooms, bacon, onions, pepperoni, peppers 
-
-Supreme: sausage, garlic, luganega, green, salami, coarse, onions, sicilian, tomatoes, olivers
-
-Chicken: Red, mushrooms, bacon, onions, pepperoni, peppers 
-
-Veggie: Cheese
+- Classic:  Red, mushrooms, bacon, onions, pepperoni, peppers 
+- Supreme: sausage, garlic, luganega, green, salami, coarse, onions, sicilian, tomatoes, olivers
+- Chicken: Red, mushrooms, bacon, onions, pepperoni, peppers 
+- Veggie: Cheese
 
 **Least Popular:**
 
-Classic: green, ppepperoni, mushrooms, peppers
-
-Supreme: pears, thyme, caramelized, garlic, cheese, brie, carre, prosciutto, onions
-
-Chicken: pears, thyme, caramelized, garlic, cheese, brie, carre, prosciutto, onions
-
-Veggie: tomatoes
+- Classic: green, ppepperoni, mushrooms, peppers
+- Supreme: pears, thyme, caramelized, garlic, cheese, brie, carre, prosciutto, onions
+- Chicken: pears, thyme, caramelized, garlic, cheese, brie, carre, prosciutto, onions
+- Veggie: tomatoes
 
 **4. Order and Ingredient Correlations**
 
@@ -184,11 +157,8 @@ a. Revenue vs. Quantity Sold by Ingredient
 The scatter plot is divided using two average reference lines (vertical = quantity; horizontal = revenue), creating four segments:
 
 - **Top Right (High Quantity, High Revenue):** Most profitable and popular ingredients (keep or promote).
-- 
 - **Top Left (Low Quantity, High Revenue):** High-margin but less frequent — explore upselling.
-- 
 - **Bottom Right (High Quantity, Low Revenue):** Common but low-margin — consider price adjustments.
-- 
 - **Bottom Left (Low Quantity, Low Revenue):** Least effective — consider discontinuation.
 
 b. Correlation Between Price and Sales Volume
